@@ -1,9 +1,6 @@
-for i in range(1,15+1):
-    if i % 15 == 0:
-        print('fizzbuzz')
-    elif i % 3 == 0:
-        print('fizz')
-    elif i % 5 == 0:
-        print('buzz')
+for i in (1, 15+1):
+    s = ("fizz" if %3 ==0 else "") + ("buzz" if i % 5==0 else "")
+    if s:
+        print(s)
     else:
         print(i)
